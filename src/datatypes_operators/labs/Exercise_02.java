@@ -23,7 +23,15 @@ public class Exercise_02 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int a = 10;
+        double b = a;
+
+        System.out.println("This double was set equal to the int:" + b);
+
+        double c = 10.5;
+        int d  = (int) c;
+
+        System.out.println("Information is lost from double to int,as this value was 10.5:" + d);
 
     }
 }

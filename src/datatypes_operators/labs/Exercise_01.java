@@ -16,7 +16,15 @@ public class Exercise_01 {
 
     public static void main(String[] args) {
 
-        // write code here
+        int a = 5;
+        double b = 13.55;
+        char p = 'q';
+
+        System.out.println("This is the int:" + a);
+        System.out.println("This is the double:" + b);
+        System.out.println("THis is the char:" + p);
+
+
 
     }
 }
