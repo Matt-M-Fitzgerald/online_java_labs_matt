@@ -24,6 +24,17 @@ public class Exercise_05 {
         int days = scanner.nextInt();
 
         // write completed code here
+        double secs;
+        if (days < 1000000000){
+
+            secs = days * 3600 * 24;
+            System.out.println("The conversion from days to seconds is:" + secs);
+
+            if (days < 1) {
+                System.out.println("The amount does not fit into the specifications");
+            }
+            }
+
 
     }
 }
