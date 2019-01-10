@@ -8,4 +8,16 @@ package conditions_loops.labs;
  */
 
 public class Exercise_10 {
+
+    public static void main(String[] args) {
+
+        for (int i = 0 ; i < 15 ; i++){
+
+            if (i == 7){
+                System.out.println("Skipping number 7");
+                continue;
+            }
+            System.out.println("Number:" + i);
+        }
+    }
 }
