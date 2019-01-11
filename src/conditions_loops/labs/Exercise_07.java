@@ -24,9 +24,7 @@ public class Exercise_07 {
         int i = 0;
         boolean shouldContinue = true;
 
-        while (shouldContinue = true) {
-            i++;
-
+        while (shouldContinue == true) {
 
             if (word.charAt(i) == 'a') {
                 System.out.println("The First vowel was:" + "a");
@@ -48,6 +46,7 @@ public class Exercise_07 {
                 System.out.println("The First vowel was:" + "u");
                 shouldContinue = false;
             }
+            i++;
 
         }
 
