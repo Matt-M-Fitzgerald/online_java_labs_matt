@@ -1,5 +1,10 @@
 package objects_classes_methods.labs;
 
+import sun.awt.windows.ThemeReader;
+
+import java.awt.print.PrinterGraphics;
+import java.util.PrimitiveIterator;
+
 /**
  * Objects, Classes and Methods Exercise 1:
  *
@@ -14,6 +19,43 @@ package objects_classes_methods.labs;
  *
  *      Be creative. Have some fun. Using Java objects you can model just about anything you want.
  *      Cars, animals, poker games, sports teams, trees, beers, people and so on.
+ *
+ *
  */
+
+// This class will be explaining a 3D printer
+public class Exercise_01 {
+    public static void main(String[] args) {
+
+        ThreeDPrinter stratasys = new ThreeDPrinter();
+        ThreeDPrinter.brand = "stratasys";
+        ThreeDPrinter.model = "450MC";
+        ThreeDPrinter.version = "one";
+
+        System.out.println(stratasys.toString());
+
+        ThreeDPrinter formlabs = new ThreeDPrinter();
+        ThreeDPrinter.brand = "form labs";
+        ThreeDPrinter.model = "form 2";
+        ThreeDPrinter.version = "one";
+
+        System.out.println(formlabs.toString());
+
+        Printing_filament pla = new Printing_filament();
+        Printing_filament.material = "pla";
+        Printing_filament.diameter = 1;
+        Printing_filament.color = "blue";
+
+        System.out.println(pla.toString());
+
+        Printing_filament abs = new Printing_filament();
+        Printing_filament.material = "abs";
+        Printing_filament.color = "red";
+        Printing_filament.diameter = 5;
+
+        System.out.println(abs.toString());
+
+    }
+}
 
 
