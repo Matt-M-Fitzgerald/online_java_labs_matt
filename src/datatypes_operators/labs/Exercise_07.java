@@ -14,22 +14,16 @@ public class Exercise_07 {
                 {0, 0, 1},
                 {0, 0, 0, 1},
                 {0, 0, 0, 0, 1}};
-        for (int i = 0; i < 2; i++) {
-            System.out.print(irrArray[0][i] + " ");
-        }
-        System.out.println(" ");
-        for (int i = 0; i < 3; i++) {
-            System.out.print(irrArray[1][i] + " ");
-        }
-        System.out.println(" ");
+
         for (int i = 0; i < 4; i++) {
-            System.out.print(irrArray[2][i] + " ");
-        }
-        System.out.println(" ");
-        for (int i = 0; i < 5; i++) {
-            System.out.print(irrArray[3][i] + " ");
+            for (int z : irrArray[i]) {
+                System.out.print(z + " ");
+            }
+            System.out.println(" ");
         }
 
     }
+
 }
+
 
